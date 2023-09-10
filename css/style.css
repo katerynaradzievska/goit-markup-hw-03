@@ -6,9 +6,8 @@ body {
 }
 img {
     display: block;
-     max-width: 100%; 
-     height: auto;
-        }
+    max-width: 100%; 
+  }
 .container { 
     width: 1158px;
     padding: 0 15px; 
@@ -150,6 +149,8 @@ p {
     letter-spacing: 0.02em;
     height: 120px;
     max-width: 496px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 .main-page {
     background-color: #2E2F42;
@@ -158,7 +159,9 @@ p {
     width: 1440px;
     height: 600px;
     flex-shrink: 0;
-    padding: 188px 0;
+    padding: 118px 0;
+    text-align: center;
+    
 }
 .button-style {
     color: #ffffff;
@@ -205,7 +208,7 @@ p {
     
 }
 .values-list-item {
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100%-72px)/4);
 }
 .title-list {
     margin-bottom: 8px; 
@@ -243,7 +246,7 @@ p {
     text-align: center; 
 }
 .list-team-item {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100%-3*24px)/4);
     border-radius: 0px 0px 4px 4px;
 
 }
@@ -274,12 +277,12 @@ p {
 .portfolio-image {
     display: flex;
     width: 360px;
-height: 420px;
-padding-bottom: 0px;
-flex-direction: column;
-align-items: flex-start;
-gap: 32px;
-flex-shrink: 0;
+    height: 300px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
 
 }
 /* footer */
