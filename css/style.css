@@ -5,8 +5,9 @@ body {
     background-color: #fff;
 }
 img {
-        display: block;
-        object-fit: cover;
+    display: block;
+     max-width: 100%; 
+     height: auto;
         }
 .container { 
     width: 1158px;
@@ -53,11 +54,14 @@ p {
     justify-content: space-between;
     border-bottom: 1px solid #e7e9fc; 
 }
-.container-header { 
+.header-inner { 
     width: 1158px;
     padding: 0 15px; 
-    margin: 0 auto; 
-    display: flex;
+    margin: 0 auto;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+
 }
 .navigation {
     display: flex;
@@ -198,10 +202,13 @@ p {
 .list-values {
     display: flex;
     gap: 24px;
+    
+}
+.values-list-item {
+    width: calc((100% - 72px) / 4); 
 }
 .title-list {
     margin-bottom: 8px; 
-    width: calc((100% - 72px) / 4); 
 }
 /* section 3 - team */
 .team-section {
