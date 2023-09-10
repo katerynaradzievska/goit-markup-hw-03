@@ -195,13 +195,15 @@ p {
 .values-list {
     padding: 120px 0;
 }
+.values-list-item {
+    width: calc((100% - 72px) / 4); 
+}
 .list-values {
     display: flex;
     gap: 24px;
 }
 .title-list {
     margin-bottom: 8px; 
-    width: calc((100% - 72px) / 4);
 }
 /* section 3 - team */
 .team-section {
@@ -236,7 +238,7 @@ p {
     text-align: center; 
 }
 .list-team-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 
 }
