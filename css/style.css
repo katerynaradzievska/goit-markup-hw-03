@@ -15,6 +15,11 @@ img {
 }
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
 }
 h2 {
     color:#2E2F42;
@@ -24,6 +29,7 @@ h2 {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin: 0;
 }
 h3 {
     color: #2e2f42;
@@ -31,6 +37,7 @@ h3 {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 p {
     color: #434455;
@@ -38,16 +45,14 @@ p {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 /* header */
 .head-information {
     background-color: #fff;
-    color: #2E2F42;
-    font-size: 16px;
     font-weight: 500;
     display: flex;
-    width: 1440px;
-    height: 72px;
+    padding: 24px;
     flex-shrink: 0;
     margin-bottom: 0 auto;
     justify-content: space-between;
@@ -75,8 +80,6 @@ p {
     text-decoration: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    width: 44px;
-    height: 21px;
     margin-right: 76px;
 }
 .logo-style {
@@ -88,14 +91,10 @@ p {
     text-decoration: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    width: 71px;
-    height: 21px;
-    margin-right: 76px;
 
 }
 .menu {
     display: flex;
-    justify-content: space-between;
     gap: 40px;
     align-items: center;
 }
@@ -105,7 +104,6 @@ p {
 .list-address {
     display: flex;
     gap: 40px;
-    justify-content: space-between;
     align-items: center;
 }  
 .nav-address {
@@ -147,17 +145,13 @@ p {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    height: 120px;
     max-width: 496px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin: 0 auto;
 }
 .main-page {
     background-color: #2E2F42;
     color: #ffffff; 
     font-family: "Roboto", sans-serif;
-    width: 1440px;
-    height: 600px;
     flex-shrink: 0;
     padding: 188px 0;
     text-align: center;
@@ -177,6 +171,8 @@ p {
     border: none; 
     background-color: #4d5ae5;
     border-radius: 4px; 
+    margin: 0 auto;
+    margin-top: 48px;
 }
 .button-style:hover {
     background-color: #404BBF;
